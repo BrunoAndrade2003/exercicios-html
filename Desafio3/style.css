@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'terror' ;
+    src: url('idroid.otf') format('truetype');
+    font-weight:900;
+    font-style: normal;
+}
+
+body{
+    margin: 0%;
+    background-color: #E9E6C3;
+}
+
+.menu{
+    background-image: linear-gradient(180deg,#3BD47F,#258550,#195734);
+    height: 200px;
+    padding: 5px;
+    text-align:center  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.links{
+    text-align: left;
+    background-color: transparent;
+    font-size: medium;
+    padding-left: 10px;
+
+
+}
+.links > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    
+}
+
+.links > a:hover{
+    background-color: #218D56;
+}
+.texto{
+    font-size: 15px;
+    text-align: center;
+    background-color: azure;
+    padding: 12px;
+    width: 800px;
+    margin: auto;
+    height: 3000px;
+    box-shadow: 1px 1px 2px 2px gray;
+    padding-right: 20px;
+
+    
+}
+blockquote{
+    margin: 20px;
+    padding-right: 150px;
+}
+
+.texto > h1{
+    font-family: 'terror';
+    color: #113a23;
+    text-align: left;
+
+}
+.t2{
+    background-image: linear-gradient(90deg ,#8AE3B3,#ffff);
+    font-size: x-large;
+    text-align: left;
+    padding-left: 5px;
+}
+.texto > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+ 
+}
+.l2{
+  background-color: #84ddaca8;
+  text-decoration: none;
+  color: #1C7140;
+    font-weight: bold;
+}
+.mark{
+    color: #1C6138;
+}
+.im2{
+    margin-right: 40px;
+}
+.vid{
+    height: 316px;
+    width: 800px;
+    background-color: #113a23;
+   
+}
+.extra2{
+    height: 400px;
+    width: 810px;
+    background-color: #74BE90;
+    border-radius: 20px;
+}
+.extra2 > h1{
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: aliceblue;
+    background-color: #317547;
+    border-radius: 20px 20px 0px 0px;
+}
+.extra2 > p{
+    text-indent: 10px;
+    text-align: justify;
+    margin-left: 6px;
+}
+li{
+    columns: 2;
+}
